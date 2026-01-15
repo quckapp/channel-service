@@ -20,7 +20,7 @@ func main() {
 	log.SetFormatter(&logrus.JSONFormatter{})
 	_ = godotenv.Load()
 
-	db, err := sqlx.Connect("mysql", getEnv("DATABASE_URL", "root:password@tcp(localhost:3306)/quckchat_channels?parseTime=true"))
+	db, err := sqlx.Connect("mysql", getEnv("DATABASE_URL", "root:password@tcp(localhost:3306)/quckapp_channels?parseTime=true"))
 	if err != nil {
 		log.Fatalf("Failed to connect to database: %v", err)
 	}

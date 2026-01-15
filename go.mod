@@ -1,4 +1,4 @@
-module github.com/quckchat/channel-service
+module github.com/quckapp/channel-service
 
 go 1.21
 
