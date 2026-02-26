@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/quckapp/channel-service/internal/api"
+	"github.com/quckapp/channel-service/internal/api/v1"
 	"github.com/quckapp/channel-service/internal/config"
 	"github.com/quckapp/channel-service/internal/db"
 	"github.com/quckapp/channel-service/internal/repository"
